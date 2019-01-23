@@ -22,6 +22,6 @@ class Api::V1::TilesController < ApplicationController
   end
 
   def tile_params
-    params.require(:tile).permit(:letter, :value, :user_id, :bag_id, :board_id, :placed)
+    params.require(:tile).permit(:letter, :value, :bag_id, :placed)
   end
 end
