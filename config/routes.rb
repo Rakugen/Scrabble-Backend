@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :boards
       resources :bags
       resources :tiles
-      resources :games, only: [:index]
+
     end
   end
 end
