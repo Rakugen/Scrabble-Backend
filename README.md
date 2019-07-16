@@ -1,5 +1,11 @@
 ## Scrabble - Backend
-scrabble description
+This project is a Scrabble-like multiplayer game built using a Ruby-on-Rails backend
+server and a vanilla Javascript frontend with custom CSS styling. Two-players can
+play on a fully interactive tile board with automatic scoring using a complex algorithm.
+Tiles are automatically generated from a set pool of letters and distributed randomly.
+
+
+This is a project in collaboration with Damon Collins (https://github.com/d-collins2).
 
 ## Contents
 - [Setup](#setup)
@@ -12,7 +18,7 @@ scrabble description
 
 ## Setup
 (how to clone and build, npm install, npm start, etc)
-
+You can find the Scrabble - Frontend here: (https://github.com/Rakugen/Scrabble-Frontend)
 
 ## Features
 These are some of the key features in Scrabble - Backend:
@@ -28,13 +34,13 @@ These are some of the key features in Scrabble - Backend:
 
 ## Work In progress
 Additional features that still need to be added:
-  - Expanded User Customization : personal icons and changeable fonts
-  - Full User Editing : allow users to edit icon, font and password
-  - Embedded Media : auto detect img/video/audio URLs and embed them into respective formats
-  - Toast Notifications : toasts appear whenever new message or user joins/leaves
-  - Additional Highlighting : improve on highlighting compenents to draw attention whenever something important occurs (user joins/leaves, new messages, new invitations)
-  - Audio Support : allow users to create audio chatrooms for voice chat
-  - Invitations : users can invite other users to a chatroom
+  - A dictionary library to be added for use in the scoring algorithm
+  - Saving game state across sessions so that you can resume later
+  - Persisting game state on session close/reopen
+  - 2x/3x letter/word multipliers
+  - Storing/Retrieving past game scores
+  - Game end trigger - At the moment, there is no ending to the game, you play forever
+  - Drag and Drop tiles onto board
 
 ## Contact
   - Email: simonlee0306@gmail.com
